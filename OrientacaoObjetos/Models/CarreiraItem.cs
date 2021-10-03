@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace OrientacaoObjetos.Models
 {
-    public class Aula
+    public class CarreiraItem
     {
         public int Ordem { get; private set; }
         public string Titulo { get; private set; }
-
-        public int Duracao { get; private set; }
-
-        public Aula(int ordem, string titulo, int duracao)
-        {
-            Ordem = ordem;
-            Titulo = titulo;
-            Duracao = duracao;
-        }
+        public string Descricao { get; private set; }
+        public Curso Curso { get; private set; }
     }
+
 }

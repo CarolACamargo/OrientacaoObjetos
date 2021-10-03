@@ -8,11 +8,20 @@ namespace OrientacaoObjetos.Models
 {
     public class Carreira : Conteudo
     {
-        public Carreira(string titulo, string url, int  quantidadeCursos) : base(titulo, url)
+        public Carreira(
+            string titulo, 
+            string url, 
+            IList<CarreiraItem> itens)
+            : base(titulo, url)
         {
-            QuantidadeCursos = quantidadeCursos;
+            Itens = itens;
+            TotalCursos = itens.Count();
         }
 
         public int QuantidadeCursos { get; private set; }
+        public IList<CarreiraItem> Itens { get; private set; }
+        public int TotalCursos { get; private set; }
+
+        
     }
 }
