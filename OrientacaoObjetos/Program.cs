@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OrientacaoObjetos.Models;
+using System;
 
 namespace OrientacaoObjetos
 {
@@ -6,7 +7,8 @@ namespace OrientacaoObjetos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //var curso = new Curso(1, "Orientação a objeto", " ");
+            //curso.
         }
     }
 }
