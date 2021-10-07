@@ -8,11 +8,16 @@ namespace OrientacaoObjetos.Models
 {
     public class Carreira : Conteudo
     {
-        public Carreira(string titulo, string url, int  quantidadeCursos) : base(titulo, url)
+        
+       
+        public Carreira(string titulo, string url) : base(titulo, url)
         {
-            QuantidadeCursos = quantidadeCursos;
+            
         }
 
-        public int QuantidadeCursos { get; private set; }
+        
+        
+
     }
+
 }
