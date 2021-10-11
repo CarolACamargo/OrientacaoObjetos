@@ -11,5 +11,6 @@ namespace OrientacaoObjetos.Models
         public Artigo(string titulo, string url) : base(titulo, url)
         {
         }
+       
     }
 }
