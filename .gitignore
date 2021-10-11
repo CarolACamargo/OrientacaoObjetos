@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/OrientacaoObjetos/bin/Debug/net5.0/ref/OrientacaoObjetos.dll
+/OrientacaoObjetos/bin/Debug/net5.0/OrientacaoObjetos.runtimeconfig.json
+/OrientacaoObjetos/bin/Debug/net5.0/OrientacaoObjetos.runtimeconfig.dev.json
+/OrientacaoObjetos/bin/Debug/net5.0/OrientacaoObjetos.pdb
+/OrientacaoObjetos/bin/Debug/net5.0/OrientacaoObjetos.exe
+/OrientacaoObjetos/bin/Debug/net5.0/OrientacaoObjetos.dll
+/OrientacaoObjetos/bin/Debug/net5.0/OrientacaoObjetos.deps.json
+/.vs/OrientacaoObjetos/DesignTimeBuild/.dtbcache.v2
+*.cache
+*.txt
+*.json
+*.dll
+*.pdb
+*.props
+*.suo
+*.exe
