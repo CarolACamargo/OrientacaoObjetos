@@ -10,13 +10,16 @@ namespace OrientacaoObjetos.Models
     {
         
        
-        public Carreira(string titulo, string url) : base(titulo, url)
+        public Carreira(string titulo, string url, IList<CarreiraItem> itens) : base(titulo, url)
         {
-            
+            Itens = itens;
         }
+       
+        public IList<CarreiraItem> Itens { get; private set; }
+        public Curso Curso { get; private set; }
+        public int QuantidadeCursos => Itens.Count;
 
-        
-        
+
 
     }
 
